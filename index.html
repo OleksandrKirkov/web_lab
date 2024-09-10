@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <main>
+        <div class="wrapper">
+            <div class="container">
+                <h1 class="title">Реєстрація</h1>
+                <form class="form" action="https://webhook.site/">
+                    <label class="label" for="name">
+                        <span class="label_text">Ім'я</span>
+                        <input class="input" type="text" name="name" id="name" required placeholder="Enter name"/>
+                    </label>
+                    <label class="label" for="secondname">
+                        <span class="label_text">Прізвище</span>
+                        <input class="input" type="text" name="secondname" id="secondname" required placeholder="Enter second name"/>
+                    </label>
+                    <label class="label" for="email">
+                        <span class="label_text">Електронна пошта</span>
+                        <input class="input" type="email" name="email" id="email" required placeholder="Enter email"/>
+                    </label>
+                    <label class="label" for="password">
+                        <span class="label_text">Пароль</span>
+                        <input class="input" type="password" name="password" id="password" required placeholder="Enter password"/>
+                    </label>
+                    <label class="label" for="date">
+                        <span class="label_text">Дата народження</span>
+                        <input class="input" type="date" name="date" id="date" required placeholder="Enter birth day"/>
+                    </label>
+                    <label class="label" for="sex">
+                        <span class="label_text">Стать</span>
+                        <select class="input" name="sex" id="sex">
+                            <option value="man">Чоловік</option>
+                            <option value="woman">Жінка</option>
+                        </select>
+                    </label>
+                    <div class="submit">
+                        <button class="button">Зареєструватися</button>
+                    </div>
+                </form>
+            </div>
+        </div>  
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
+
